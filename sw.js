@@ -29,7 +29,7 @@ async function precache() {
     "./Assets/Plugins/AutoPlay.js",
     "./Assets/Plugins/AutoPause.js",
     "./Assets/Index.css",
-    "./Assets/BigBuckBunny.mp4",
+    "./Assets/BigBuckBunny.mp4"
   ]);
 }
 
