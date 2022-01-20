@@ -16,7 +16,7 @@ buttonMute.onclick = () => player.toggleMute();
 
 // Source index.js para llamar el Service Worker
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('/sw.js').catch(error =>{
+  navigator.serviceWorker.register('../sw.js').catch(error =>{
     console.log(error.message);
   });
 }
