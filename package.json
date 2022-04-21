@@ -1,20 +1,24 @@
 {
- "name": "platzi-media-player",
- "version": "1.0.0",
- "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
- "license": "MIT",
- "author": "Juan Bossa <juanseb100@gmail.com>",
- "keywords": [
-  "platzi"
- ],
- "scripts": {
-  "start": "parcel Index.html Ejercicios/index.html Ejercicios/**/*.html"
- },
- "devDependencies": {
-  "parcel-bundler": "^1.12.3",
-  "typescript": "^4.5.4"
- },
- "browserslist": [
-  "last 1 Chrome version"
- ]
+  "homepage": "https://JBxss.github.io/Pluyer---a-Media-Player-with-Plugins",
+  "name": "platzi-media-player",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript de la Escuela de JavaScript de Platzi.",
+  "license": "MIT",
+  "author": "Juan Bossa <juanseb100@gmail.com>",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "parcel Index.html Ejercicios/index.html Ejercicios/**/*.html"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^4.5.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
