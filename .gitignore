@@ -4,8 +4,7 @@ Ejercicios
 #Ignora mis herramientas de programacion
 .cache
 dist
-node_modules
-node_modules/*                                          
-
+/node_modules
+                                         
 #Ignora mis archivos binarios
 #*.mp4 --En Proceso--
